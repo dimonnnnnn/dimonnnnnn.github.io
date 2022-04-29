@@ -1,55 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <style>
-        .rounded-img {
-            width: 60%;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(95, 82, 82, 0.2);
-            padding: 0.4em;
-            margin-bottom: 0.5em;
-        }
-    </style>
+    <title>Изучение HTML5</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="places.html">Favorite places</a>
-              </li>
-          </div>
-        </div>
-      </nav>
-  <div class="container text-center my-5">
-    <div class="row">
-        <div class="col-lg-6 mx-auto">
-            <img class="rounded-img" src="img/img.webp" alt="cat">
-            <h1 class="fw-light">demon</h1>
-            <p class="lead text-muted">We will help you select and issue a bibliographic list for your work in accordance with GOST. More than 10 million sources in Russian and more than 200 million in English. For free. Non-commercial project.</p>
-            <a href="https://www.youtube.com/channel/UCIlAFmwwO5NaN66frXp3mTA" target="_blank" class="btn btn-primary">
-                youtube
-            </a>
-        </div>
-    </div>
- </div>
+    
+<header>
+    <img src="https://wayup-other.s3.eu-west-2.amazonaws.com/other/1650998594_wpdmn_logo.jpeg" alt="wayuplogo">
+
+    <h1>Вступление H1</h1>
+    <p class="wist">Это текст моего первого домашнего задания.</p>
+
+    <p>Не верится, но мне уже удаеться писать свой <span style="color:red">первый код на HTML.</span></p>
+</header>
+<section>
+    <h2 class="font">Что дальше?H2?</h2>
+    <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, что бы достичь новых вершин! <a href="https://google.com.ua" target="_blank">Прочитать больше в Google</a> </p>
+</section>
+<section>
+    <h2 class="let">Что я буду уметь?H2</h2>
+    <p class="lot">Я смогу создавать вот такие замечательные формы:</p>
+
+    <form action="#">
+        <input placeholder="Имя" name="name" type="text" required>
+        <input placeholder="E-mail" name="email" type="email" required>
+        <input placeholder="Телефон" name="phone" type="tel" required>
+        <button type="submit">Отправить форму</button>
+    </form>
+
+    <p>А также, я начучусь создавать списки:</p>
+
+    <ul class="list">
+        <li>С одним пунктом</li>
+        <li>С несколькими пунктами</li>
+        <li>И даже с тремя отдельными пунктами</li>
+    </ul>
+</section>
+<footer>
+    <h2 class="font">Отличное начало!H2</h2>
+    <a href="https://my.wayup.in/lesson/934">Перейти на страницу первого занятия курса</a>
+</footer>
 </body>
 </html>
